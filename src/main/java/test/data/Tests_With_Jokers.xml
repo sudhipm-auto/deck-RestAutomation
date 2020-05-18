@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- Run this xml to run the tests using the deck with jokers -->
+  <test thread-count="1" name="Test">
+  	<groups>
+  		<run>
+  			<include name="jokers_enabled"/>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="test.java.deckofcards.DrawFromDeckTests"/>
+      <class name="test.java.deckofcards.CreateDeckTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
