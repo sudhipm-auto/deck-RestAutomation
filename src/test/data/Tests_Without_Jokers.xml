@@ -9,8 +9,8 @@
   		</run>
   	</groups>
     <classes>
-      <class name="test.java.deckofcards.DrawFromDeckTests"/>
-      <class name="test.java.deckofcards.CreateDeckTests"/>
+      <class name="deckofcards.DrawFromDeckTests"/>
+      <class name="deckofcards.CreateDeckTests"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -10,11 +10,11 @@ Structure:
 How to run the tests
 --------------------
 Method 1 (Run tests individually):
-1. Create a new deck of cards: Run CreateDeckTests.java -> createNewDeckTest() as TestNG
-2. Support adding Jokers: Run CreateDeckTests.java -> createNewDeckWithJokersTest() as TestNG
+1. Create a new deck of cards: Run deckofcards.CreateDeckTests.java -> createNewDeckTest() as TestNG
+2. Support adding Jokers: Run deckofcards.CreateDeckTests.java -> createNewDeckWithJokersTest() as TestNG
 3. Draw one or more cards from the deck
-  - Run DrawFromDeckTests.java -> drawCardsFromDeckWithoutJokersTest() as TestNG (Pre-requisite: Deck should be created using 1)
-  - Run DrawFromDeckTests.java -> drawCardsFromDeckWithJokersTest() as TestNG (Pre-requisite: Deck should be created using 2)
+  - Run deckofcards.DrawFromDeckTests.java -> drawCardsFromDeckWithoutJokersTest() as TestNG (Pre-requisite: Deck should be created using 1)
+  - Run deckofcards.DrawFromDeckTests.java -> drawCardsFromDeckWithJokersTest() as TestNG (Pre-requisite: Deck should be created using 2)
   
 Method 2 (Run tests using XML to automatically create the deck before drawing cards):
 1. Run test -> data -> Tests_Without_Jokers.xml as TestNG 
