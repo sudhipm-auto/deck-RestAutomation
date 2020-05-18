@@ -3,14 +3,10 @@
 Structure:
 ---------
 src
-|
-|->main->java->api (Generate endpoint URLs and the response keys enumerator)
-|
-|->main->java->deck (Deck data and Deck type) 
-|
-|->test->data (TestNG XMLs to run the scripts)
-|
-|->test->java (Automated tests to create deck and draw cards)
+- main->java->api (Generate endpoint URLs and the response keys enumerator)
+- main->java->deck (Deck data and Deck type) 
+- test->data (TestNG XMLs to run the scripts)
+- test->java (Automated tests to create deck and draw cards)
 
 How to run the tests
 --------------------
