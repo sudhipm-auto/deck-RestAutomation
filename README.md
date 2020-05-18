@@ -1,4 +1,4 @@
-# deck-RestAutomation is a repo to test the API: http://deckofcardsapi.com with automated scripts using TestNG and RestAssured
+# deck-RestAutomation is a repo to test the API: http://deckofcardsapi.com using TestNG and RestAssured
 
 Structure:
 ---------
