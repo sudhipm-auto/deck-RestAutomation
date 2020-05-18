@@ -1,7 +1,7 @@
 package main.java.api;
 
 /**
- * Enumerator with possible Query Parameters
+ * Enumerator with possible keys in response
  * 
  * @author sudhipm
  *
